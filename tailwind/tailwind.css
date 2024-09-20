@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@layer base {
+    @font-face {
+        font-family: main-font-for-project;
+        src: url(../fonts/IRANSansWeb.woff2);
+    }
+}
+
+@layer utilities {
+  .font-main {
+    font-family: 'main-font-for-project', sans-serif;
+  }
+}
+
+.menu-item a.active {
+  color: red;
+  transition: 300ms;
+}
