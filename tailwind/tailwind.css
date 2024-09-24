@@ -9,6 +9,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+@layer base {
+  @font-face {
+    font-family: font-for-lamiz-coffee;
+    src: url(../fonts/Merriweather-Regular.woff);
+    src: url(../fonts/Merriweather-Regular.woff2);
+  }
+}
 
 @layer base {
     @font-face {

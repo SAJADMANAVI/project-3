@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "tailwind": "npx tailwindcss -i ./tailwind/tailwind.css -o ./css/main.css --watch"
+    "tailwind": "tailwindcss -i ./tailwind/tailwind.css -o ./css/main.css --watch",
+    "server": "json-server db.json"
   },
   "keywords": [],
   "author": "",
@@ -11,5 +12,8 @@
   "description": "",
   "devDependencies": {
     "tailwindcss": "^3.4.12"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.2"
   }
 }
