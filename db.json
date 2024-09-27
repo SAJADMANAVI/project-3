@@ -1,1 +1,84 @@
-{}
+{
+  "Products": [
+    {
+      "image": "https://lamizcoffee.com/wp-content/uploads/2023/06/Lamiz-Proso-WithoutCaffeine-300x300.webp",
+      "p": "کپسول لمیزپرسو دیکف",
+      "price": "249,800 تومان"
+    },
+    {
+      "image": "https://lamizcoffee.com/wp-content/uploads/2023/06/Lamiz-Perso-Exclusive-Combination-300x300.webp",
+      "p": "کپسول لمیزپرسو دیکف",
+      "price": "249,800 تومان"
+    },
+    {
+      "image": "https://lamizcoffee.com/wp-content/uploads/2022/10/lamizpresou-single-origin-capsule-300x300.webp",
+      "p": "کپسول لمیزپرسو دیکف",
+      "price": "249,800 تومان"
+    },
+    {
+      "image": "https://lamizcoffee.com/wp-content/uploads/2023/06/Lamiz-Persu-Barista-300x300.webp",
+      "p": "کپسول لمیزپرسو دیکف",
+      "price": "249,800 تومان"
+    },
+    {
+      "image": "https://lamizcoffee.com/wp-content/uploads/2023/06/Lameez-Persu-Neera-300x300.webp",
+      "p": "کپسول لمیزپرسو دیکف",
+      "price": "249,800 تومان"
+    },
+    {
+      "image": "https://lamizcoffee.com/wp-content/uploads/2023/06/Lamiz-Persu-Mix-300x300.webp",
+      "p": "کپسول لمیزپرسو دیکف",
+      "price": "249,800 تومان"
+    },
+    {
+      "image": "https://lamizcoffee.com/wp-content/uploads/2023/06/1-Kg-Exclusive-Blend-Coffee-Beans-300x300.webp",
+      "p": "کپسول لمیزپرسو دیکف",
+      "price": "249,800 تومان"
+    },
+    {
+      "image": "https://lamizcoffee.com/wp-content/uploads/2023/06/1-kgCoffee-Beans-Number-23-300x300.webp",
+      "p": "کپسول لمیزپرسو دیکف",
+      "price": "249,800 تومان"
+    },
+    {
+      "image": "https://lamizcoffee.com/wp-content/uploads/2023/06/Barista-Coffee-Beans-1-kg-300x300.webp",
+      "p": "کپسول لمیزپرسو دیکف",
+      "price": "249,800 تومان"
+    },
+    {
+      "image": "https://lamizcoffee.com/wp-content/uploads/2023/06/Barista-Coffee-Beans-1-kg-300x300.webp",
+      "p": "کپسول لمیزپرسو دیکف",
+      "price": "249,800 تومان"
+    },
+    {
+      "image": "https://lamizcoffee.com/wp-content/uploads/2023/06/PB-Coffee-Beans-1-kg-300x300.webp",
+      "p": "کپسول لمیزپرسو دیکف",
+      "price": "249,800 تومان"
+    },
+    {
+      "image": "https://lamizcoffee.com/wp-content/uploads/2023/06/Turkish-Coffee-250-Gr-300x300.webp",
+      "p": "کپسول لمیزپرسو دیکف",
+      "price": "249,800 تومان"
+    },
+    {
+      "image": "https://lamizcoffee.com/wp-content/uploads/2023/06/Turkish-Coffee-With-Cardamom-250-Gr-300x300.webp",
+      "p": "کپسول لمیزپرسو دیکف",
+      "price": "249,800 تومان"
+    },
+    {
+      "image": "https://lamizcoffee.com/wp-content/uploads/2023/06/Monin-Triple_Sec-Syrup-300x300.webp",
+      "p": "کپسول لمیزپرسو دیکف",
+      "price": "249,800 تومان"
+    },
+    {
+      "image": "https://lamizcoffee.com/wp-content/uploads/2023/06/Monin-Almond-Syrup-300x300.webp",
+      "p": "کپسول لمیزپرسو دیکف",
+      "price": "249,800 تومان"
+    },
+    {
+      "image": "https://lamizcoffee.com/wp-content/uploads/2022/11/Caribbean-syrup-1-300x300.webp",
+      "p": "کپسول لمیزپرسو دیکف",
+      "price": "249,800 تومان"
+    }
+  ]
+}

@@ -14,206 +14,97 @@
   <body>
     <!-- start header -->
     <header class="">
-      <div
-        class="bg-main-header-pag-home w-full h-[600px] bg-cover"
-        style="background-image: url(./img/Lamiz-Sliders.webp)"
-      >
-        <div class="w-full h-[7rem] bg-black flex justify-around">
-          <div
-            class="img-for-menu-main-header w-[10%] h-[7rem] flex justify-end items-center"
-          >
-            <img
-              src="./icons/Lamiz-logo-150x150.webp"
-              alt=""
-              class="w-[40%] h-[80%]"
-            />
+      <div class="bg-main-header-pag-home w-full h-[600px] bg-cover bg-top relative" style="background-image: url(./img/Lamiz-Sliders.webp)">
+        <!-- لایه شفاف اضافه می‌شود -->
+        <div class="overlay absolute top-0 left-0 w-full h-full "></div>
+    
+        <div class="w-full h-[7rem] bg-black flex justify-around fixed z-10">
+          <!-- لوگو -->
+          <div class="img-for-menu-main-header w-[10%] h-[7rem] flex justify-end items-center">
+            <img src="./icons/Lamiz-logo-150x150.webp" alt="" class="w-[40%] h-[80%]" />
           </div>
-          <div
-            class="main-menu-of-header w-[60%] h-[7rem] text-xl text-white flex items-center"
-          >
+    
+          <!-- منو -->
+          <div class="main-menu-of-header w-[60%] h-[7rem] text-xl text-white flex items-center">
             <ul class="elementor-nav-menu flex gap-3 text-[16px]">
-              <li
-                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37496"
-              >
-                <a
-                  href=""
-                  class="elementor-item font-main duration-300 hover:text-red-700"
-                  >فروشگاه محصولات</a
-                >
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37496">
+                <a href="" class="elementor-item font-main duration-300 hover:text-red-700">فروشگاه محصولات</a>
               </li>
-              <li
-                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37495"
-              >
-                <a
-                  href=""
-                  class="elementor-item font-main duration-300 hover:text-red-700"
-                  >شعب قهوه لمیز</a
-                >
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37495">
+                <a href="" class="elementor-item font-main duration-300 hover:text-red-700">شعب قهوه لمیز</a>
               </li>
-              <li
-                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37495"
-              >
-                <a
-                  href=""
-                  class="elementor-item font-main duration-300 hover:text-red-700"
-                  >منو قهوه لمیز</a
-                >
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37495">
+                <a href="" class="elementor-item font-main duration-300 hover:text-red-700">منو قهوه لمیز</a>
               </li>
-              <li
-                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37495"
-              >
-                <a
-                  href=""
-                  class="elementor-item font-main duration-300 hover:text-red-700"
-                  >فرم درخواست همکاری</a
-                >
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37495">
+                <a href="" class="elementor-item font-main duration-300 hover:text-red-700">فرم درخواست همکاری</a>
               </li>
-              <ul class="flex gap-6 translate-y-1">
-                <li
-                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children flex gap-2 relative group"
-                >
-                  <a
-                    href="#"
-                    class="elementor-item elementor-item-anchor has-submenu font-main duration-300 hover:text-red-700"
-                  >
-                    تماس با ما
-                  </a>
-                  <span class="sub-arrow cursor-pointer">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="10"
-                      height="30"
-                      viewBox="0 0 32 25"
-                    >
-                      <path
-                        fill="none"
-                        stroke="#fcfcfc"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="m6 22l10 8l10-8m-10 8V2"
-                      ></path>
-                    </svg>
-                  </span>
-                  <ul
-                    class="absolute top-0 w-[15rem] text-xs mt-8 bg-white text-black p-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 invisible group-hover:visible space-y-2"
-                  >
-                    <li>
-                      <a href="#" class="block hover:bg-gray-600 p-2 rounded"
-                        >ارتباط با ما</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="block hover:bg-gray-600 p-2 rounded"
-                        >درباره ما</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li
-                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children flex gap-2 relative group mb-[-10px]"
-                >
-                  <a
-                    href="#"
-                    class="elementor-item elementor-item-anchor has-submenu font-main duration-300 hover:text-red-700"
-                  >
-                    سایر
-                  </a>
-                  <span class="sub-arrow cursor-pointer">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="10"
-                      height="30"
-                      viewBox="0 0 32 25"
-                    >
-                      <path
-                        fill="none"
-                        stroke="#fcfcfc"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="m6 22l10 8l10-8m-10 8V2"
-                      ></path>
-                    </svg>
-                  </span>
-                  <ul
-                    class="absolute top-0 text-xs w-[15rem] mt-10 bg-white text-black p-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 invisible group-hover:visible space-y-2"
-                  >
-                    <li>
-                      <a href="#" class="block hover:bg-gray-600 p-2 rounded"
-                        >سیاست مرجوعی و عودت</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="block hover:bg-gray-600 p-2 rounded"
-                        >انتقادات و پیشنهادات</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="block hover:bg-gray-600 p-2 rounded"
-                        >قوانین و مقررات</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="block hover:bg-gray-600 p-2 rounded"
-                        >سوالات متداول</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="block hover:bg-gray-600 p-2 rounded"
-                        >مقالات</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-              </ul>
+    
+              <!-- منوی تماس با ما -->
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children flex gap-2 relative group">
+                <a href="#" class="elementor-item elementor-item-anchor has-submenu font-main duration-300 hover:text-red-700">
+                  تماس با ما
+                </a>
+                <span class="sub-arrow cursor-pointer">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="30" viewBox="0 0 32 25">
+                    <path fill="none" stroke="#fcfcfc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 22l10 8l10-8m-10 8V2"></path>
+                  </svg>
+                </span>
+    
+                <!-- زیرمنو -->
+                <ul class="absolute top-0 w-[15rem] text-xs mt-8 bg-white text-black p-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 invisible group-hover:visible space-y-2">
+                  <li>
+                    <a href="#" class="block hover:bg-gray-600 p-2 rounded">ارتباط با ما</a>
+                  </li>
+                  <li>
+                    <a href="#" class="block hover:bg-gray-600 p-2 rounded">درباره ما</a>
+                  </li>
+                </ul>
+              </li>
+    
+              <!-- منوی سایر -->
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children flex gap-2 relative group mb-[-10px]">
+                <a href="#" class="elementor-item elementor-item-anchor has-submenu font-main duration-300 hover:text-red-700">سایر</a>
+                <span class="sub-arrow cursor-pointer">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="30" viewBox="0 0 32 25">
+                    <path fill="none" stroke="#fcfcfc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 22l10 8l10-8m-10 8V2"></path>
+                  </svg>
+                </span>
+                
+                <!-- زیرمنو -->
+                <ul class="absolute top-0 text-xs w-[15rem] mt-10 bg-white text-black p-4 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 invisible group-hover:visible space-y-2">
+                  <li>
+                    <a href="#" class="block hover:bg-gray-600 p-2 rounded">سیاست مرجوعی و عودت</a>
+                  </li>
+                  <li>
+                    <a href="#" class="block hover:bg-gray-600 p-2 rounded">انتقادات و پیشنهادات</a>
+                  </li>
+                  <li>
+                    <a href="#" class="block hover:bg-gray-600 p-2 rounded">قوانین و مقررات</a>
+                  </li>
+                  <li>
+                    <a href="#" class="block hover:bg-gray-600 p-2 rounded">سوالات متداول</a>
+                  </li>
+                  <li>
+                    <a href="#" class="block hover:bg-gray-600 p-2 rounded">مقالات</a>
+                  </li>
+                </ul>
+              </li>
             </ul>
           </div>
-          <div
-            class="flex flex-row-reverse items-center gap-3 justify-end w-[20%]"
-          >
-            <svg
-              class="duration-300 hover:scale-150"
-              xmlns="http://www.w3.org/2000/svg"
-              width="25px"
-              height="25"
-              viewBox="0 0 256 256"
-            >
-              <path
-                fill="#fcfcfc"
-                d="M230.92 212c-15.23-26.33-38.7-45.21-66.09-54.16a72 72 0 1 0-73.66 0c-27.39 8.94-50.86
-                 27.82-66.09 54.16a8 8 0 1 0 13.85 8c18.84-32.56 52.14-52 89.07-52s70.23 19.44 89.07 52a8
-                  8 0 1 0 13.85-8M72 96a56 56 0 1 1 56 56a56.06 56.06 0 0 1-56-56"
-              ></path>
+    
+          <!-- آیکون‌های منو -->
+          <div class="flex flex-row-reverse items-center gap-3 justify-end w-[20%]">
+            <svg class="duration-300 hover:scale-150" xmlns="http://www.w3.org/2000/svg" width="25px" height="25" viewBox="0 0 256 256">
+              <path fill="#fcfcfc" d="M230.92 212c-15.23-26.33-38.7-45.21-66.09-54.16a72 72 0 1 0-73.66 0c-27.39 8.94-50.86 27.82-66.09 54.16a8 8 0 1 0 13.85 8c18.84-32.56 52.14-52 89.07-52s70.23 19.44 89.07 52a8 8 0 1 0 13.85-8M72 96a56 56 0 1 1 56 56a56.06 56.06 0 0 1-56-56"></path>
             </svg>
-            <svg
-              class="duration-300 hover:scale-150"
-              xmlns="http://www.w3.org/2000/svg"
-              width="25"
-              height="25"
-              viewBox="0 0 24 24"
-            >
-              <path
-                fill="#fcfcfc"
-                d="m12.1 18.55l-.1.1l-.11-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04 1 3.57
-                 2.36h1.86C13.46 6 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5c0 2.89-3.14 5.74-7.9 10.05M16.5 3c-1.74
-                  0-3.41.81-4.5 2.08C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.41 2 8.5c0 3.77 3.4 6.86 8.55 11.53L12 
-                  21.35l1.45-1.32C18.6 15.36 22 12.27 22 8.5C22 5.41 19.58 3 16.5 3"
-              ></path>
+            <svg class="duration-300 hover:scale-150" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
+              <path fill="#fcfcfc" d="m12.1 18.55l-.1.1l-.11-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04 1 3.57 2.36h1.86C13.46 6 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5c0 2.89-3.14 5.74-7.9 10.05M16.5 3c-1.74 0-3.41.81-4.5 2.08C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.41 2 8.5c0 3.77 3.4 6.86 8.55 11.53L12 21.35l1.45-1.32C18.6 15.36 22 12.27 22 8.5C22 5.41 19.58 3 16.5 3"></path>
             </svg>
-            <svg
-              class="duration-300 hover:scale-150"
-              xmlns="http://www.w3.org/2000/svg"
-              width="25"
-              height="25"
-              viewBox="0 0 512 512"
-            >
+            <svg class="duration-300 hover:scale-150" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 512 512">
               <circle cx="176" cy="416" r="32" fill="#fcfcfc"></circle>
               <circle cx="400" cy="416" r="32" fill="#fcfcfc"></circle>
-              <path
-                fill="#fcfcfc"
-                d="M167.78 304h261.34l38.4-192H133.89l-8.47-48H32v32h66.58l48 272H432v-32H173.42z"
-              ></path>
+              <path fill="#fcfcfc" d="M167.78 304h261.34l38.4-192H133.89l-8.47-48H32v32h66.58l48 272H432v-32H173.42z"></path>
             </svg>
           </div>
         </div>
@@ -221,7 +112,16 @@
     </header>
     <!-- end header -->
     <!-- star main -->
-    <main class="text-white" style="background: linear-gradient(360deg, rgba(228,228,168,1) 0%, rgba(0,0,0,1) 9%);">
+    <main
+      class="text-white"
+      style="
+        background: linear-gradient(
+          360deg,
+          rgba(228, 228, 168, 1) 0%,
+          rgba(0, 0, 0, 1) 9%
+        );
+      "
+    >
       <div class="container mx-auto">
         <div class="flex justify-center">
           <div class="flex flex-col gap-[2rem] w-[40%] mt-12 items-center">
@@ -404,7 +304,7 @@
               بوده است.
             </p>
           </div>
-          <div class="bg-[#333] flex flex-col items-center justify-around">
+          <div class="bg-[#333] flex flex-col items-center justify-around mb-[2rem]">
             <div class="flex justify-center items-center text-center">
               <span
                 class="text-[5rem] text-[#BDBDBD] font-[font-for-lamiz-coffee]"
@@ -417,27 +317,21 @@
               <p class="text-[3.5rem] font-main">تجاری ما</p>
             </div>
           </div>
-          <div class="bg-[#3F3F3F] flex justify-center items-center">
+          <div class="bg-[#3F3F3F] flex justify-center items-center mb-[2rem]">
             <p class="text-justify p-[30px] text-[21px] font-main">
               مجموعه<span class="text-[#FF6E1F]"> قهوه لمیز </span>
-              دارای نمایندگی انحصاری سیروپ مونین، پولی کف و کفِ تو در ایران و دارای مشتریان قابل توجهی است.
+              دارای نمایندگی انحصاری سیروپ مونین، پولی کف و کفِ تو در ایران و
+              دارای مشتریان قابل توجهی است.
             </p>
           </div>
           <div
-            class="img-1-for-pag-home-grid h-[30rem] bg-cover bg-top flex items-end justify-center"
+            class="img-1-for-pag-home-grid h-[30rem] bg-cover bg-top flex items-end justify-center mb-[2rem]"
             style="background-image: url(./img/our-partners.webp)"
           ></div>
         </div>
       </div>
     </main>
     <!-- end main -->
-     <!-- above footer -->
-     <div class="h-[20rem] flex " style="background: linear-gradient(180deg, rgba(228,228,168,0.8547794117647058) 0%, rgba(228,228,168,1) 21%);">
-     <div class="container mx-auto">
-      
-     </div>
-     </div>
-      <!-- end above footer -->
     <!-- start footer -->
     <footer class="">
       <footer class="bg-black text-white py-8">
@@ -594,7 +488,7 @@
       </footer>
     </footer>
     <!-- end footer -->
-
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>

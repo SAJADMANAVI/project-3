@@ -34,3 +34,19 @@
   color: red;
   transition: 300ms;
 }
+
+#root{
+  
+}
+
+.p {
+  @apply text-[rgba(255,110,31)]
+}
+
+.hover{
+  @apply duration-300 hover:scale-125 
+}
+.cursor{
+  @apply cursor-pointer mt-16 text-center flex flex-col gap-4
+}
+
