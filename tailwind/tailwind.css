@@ -2,12 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 @layer base {
   @font-face {
@@ -18,15 +16,15 @@
 }
 
 @layer base {
-    @font-face {
-        font-family: main-font-for-project;
-        src: url(../fonts/IRANSansWeb.woff2);
-    }
+  @font-face {
+    font-family: main-font-for-project;
+    src: url(../fonts/IRANSansWeb.woff2);
+  }
 }
 
 @layer utilities {
   .font-main {
-    font-family: 'main-font-for-project', sans-serif;
+    font-family: "main-font-for-project", sans-serif;
   }
 }
 
@@ -35,18 +33,17 @@
   transition: 300ms;
 }
 
-#root{
-  
-}
-
 .p {
-  @apply text-[rgba(255,110,31)]
+  @apply text-[rgba(255,110,31)];
 }
 
-.hover{
-  @apply duration-300 hover:scale-125 
+.hover {
+  @apply duration-300 hover:scale-125;
 }
-.cursor{
-  @apply cursor-pointer mt-16 text-center flex flex-col gap-4
+.cursor {
+  @apply cursor-pointer mt-16 text-center flex flex-col gap-4;
+}
+.paragraph {
+  @apply translate-y-[-2.5rem];
 }
 

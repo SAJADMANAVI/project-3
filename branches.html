@@ -18,7 +18,7 @@
       type="image/x-icon"
     />
   </head>
-  <body>
+  <body class="bg-gray-900">
     <!-- start header -->
     <header class="">
       <div
@@ -37,11 +37,13 @@
           <div
             class="img-for-menu-main-header w-[10%] h-[7rem] flex justify-end items-center"
           >
-            <img
-              src="./icons/Lamiz-logo-150x150.webp"
-              alt=""
-              class="w-[40%] h-[80%]"
-            />
+            <a href="index.html" target="_blank">
+              <img
+                src="./icons/Lamiz-logo-150x150.webp"
+                alt=""
+                class="w-[40%] h-[80%]"
+              />
+            </a>
           </div>
 
           <!-- منو -->
@@ -53,7 +55,8 @@
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37496"
               >
                 <a
-                  href=""
+                  href="products.html"
+                  target="_blank"
                   class="elementor-item font-main duration-300 hover:text-red-700"
                   >فروشگاه محصولات</a
                 >
@@ -62,7 +65,8 @@
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37495"
               >
                 <a
-                  href=""
+                  href="branches.html"
+                  target="_blank"
                   class="elementor-item font-main duration-300 hover:text-red-700"
                   >شعب قهوه لمیز</a
                 >
@@ -71,7 +75,8 @@
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37495"
               >
                 <a
-                  href=""
+                  href="menuMain.html"
+                  target="_blank"
                   class="elementor-item font-main duration-300 hover:text-red-700"
                   >منو قهوه لمیز</a
                 >
@@ -80,7 +85,8 @@
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37495"
               >
                 <a
-                  href=""
+                  href="form.html"
+                  target="_blank"
                   class="elementor-item font-main duration-300 hover:text-red-700"
                   >فرم درخواست همکاری</a
                 >
@@ -238,20 +244,31 @@
         <div
           class="w-[100%] text-white flex flex-row items-center justify-between z-30"
         >
-        <div class="w-[100%] flex justify-around">
-          <p class="flex items-center font-main text-[2rem] font-black">شعب قهوه لمیز</p>
-          <div class="flex flex-col gap-2">
-            <i class="fa-brands fa-instagram bg-[#FF6E1F] rounded-full p-2 duration-300 hover:scale-125"></i>
-            <i
-              class="fa-brands fa-linkedin-in bg-[#FF6E1F] rounded-full p-2 duration-300 hover:scale-125"
-            ></i>
+          <div class="w-[100%] flex justify-around">
+            <p class="flex items-center font-main text-[2rem] font-black">
+              شعب قهوه لمیز
+            </p>
+            <div class="flex flex-col gap-2">
+              <i
+                class="fa-brands fa-instagram bg-[#FF6E1F] rounded-full p-2 duration-300 hover:scale-125"
+              ></i>
+              <i
+                class="fa-brands fa-linkedin-in bg-[#FF6E1F] rounded-full p-2 duration-300 hover:scale-125"
+              ></i>
+            </div>
           </div>
-        </div>
         </div>
       </div>
     </header>
     <!-- end header -->
-     star
+    <!-- start main -->
+    <main class="bg-gray-900 mt-16">
+      <div
+        id="branches"
+        class="container mx-auto grid grid-cols-5 gap-10"
+      ></div>
+    </main>
+    <!-- end main -->
     <!-- start footer -->
     <footer class="">
       <footer class="bg-black text-white py-8">
