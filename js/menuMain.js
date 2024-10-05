@@ -7,7 +7,7 @@ let menuMain = async (url) => {
     showMenuMain += `
         <div class="text-center">
         <div class="w-full flex justify-center">
-            <img src="${element.image}" class="bg-none"/>
+            <img src="${element.image}" class="bg-none duration-300 hover:scale-110"/>
         </div>
             <h3>${element.title}</h3>
             <h3>${element.mainTitleShot}</h3>
