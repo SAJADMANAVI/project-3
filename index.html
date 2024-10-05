@@ -4,14 +4,108 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>کافه لمیز</title>
-    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link
       rel="shortcut icon"
       href="./icons/Lamiz-logo-150x150.webp"
       type="image/x-icon"
     />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
+    <div class="xl:hidden w-full flex justify-center fixed bottom-0">
+      <div class="bg-white flex justify-around w-[90%] rounded">
+        <a href=""
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="none"
+              stroke="#000000"
+              d="M12.391 4.262a1 1 0 0 0-1.46.035l-6.177 6.919a1 1 0 0 0-.254.666V19.5a1
+             1 0 0 0 1 1h3a1 1 0 0 0 1-1V16a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v3.5a1 1 0 0 
+             0 1 1h3a1 1 0 0 0 1-1v-7.591a1 1 0 0 0-.287-.7z"
+            ></path>
+          </svg>
+        </a>
+        <a href="">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="#ffffff"
+              d="M1.63.47a.393.393 0 0 0-.39.39v2.417c0 .212.177.39.39.39h20.74c.213 0
+             .39-.178.39-.39V.859a.393.393 0 0 0-.39-.39zm-.045 4.126a.41.41 0 0 0-.407.337l-1.17
+              6.314C0 11.274 0 11.3 0 11.327v2.117c0 .23.186.416.416.416h23.168c.23 
+              0 .416-.186.416-.416v-2.126c0-.027 0-.053-.009-.08l-1.169-6.305a.41.41
+               0 0 0-.407-.337zM1.7 14.781a.457.457 0 0 0-.46.46v7.829c0 .257.203.46.46.46h14.108c.257
+                0 .46-.203.46-.46v-6.589c0-.257.204-.46.461-.46h4.02c.258 0 .461.203.461.46v6.589c0 
+                .257.204.46.46.46h.62a.456.456 0 0 0 .461-.46v-7.829a.46.46 0 0 0-.46-.46zm1.842 
+                1.55h7.847c.212 0 .39.177.39.39V21.6c0 .212-.178.39-.39.39H3.542a.393.393 0 0 1-.39-.39v-4.88c0-.221.178-.39.39-.39Z"
+              style="fill: rgb(0, 0, 0)"
+            ></path>
+          </svg>
+        </a>
+        <a href="">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="#000000"
+              d="M13 10h-2V8h2zm0-4h-2V1h2zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2s-.9-2-2-2m10
+             0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2s2-.9 2-2s-.9-2-2-2m-8.9-5h7.45c.75 0 1.41-.41 1.75-1.03L21
+              4.96L19.25 4l-3.7 7H8.53L4.27 2H1v2h2l3.6 7.59l-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7z"
+            ></path>
+          </svg>
+        </a>
+        <a href="">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="#000000"
+              fill-rule="evenodd"
+              d="M8.25 6.015V5a3.75 3.75 0 0 1 7.5 0v1.015c1.287.039 2.075.177 2.676.676c.833.692
+             1.053 1.862 1.492 4.203l.75 4c.617 3.292.925 4.938.026 6.022C19.794 22 18.119 22 14.77
+              22H9.23c-3.35 0-5.024 0-5.924-1.084s-.59-2.73.026-6.022l.75-4c.44-2.34.659-3.511
+               1.492-4.203c.601-.499 1.389-.637 2.676-.676M9.75 5a2.25 2.25 0 1 1 4.5 0v1h-4.5z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </a>
+        <a href="">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="#000000"
+              d="M12 2a5 5 0 1 1-5 5l.005-.217A5 5 0 0 1 12 2m2 12a5 5 0 0 1 5 5v1a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-1a5 5 0 0 1 5-5z"
+            ></path>
+          </svg>
+        </a>
+      </div>
+    </div>
     <!-- start header -->
     <header class="">
       <div
@@ -21,7 +115,9 @@
         <!-- لایه شفاف اضافه می‌شود -->
         <div class="overlay absolute top-0 left-0 w-full h-full"></div>
 
-        <div class="w-full h-[7rem] bg-black flex justify-around fixed z-10">
+        <div
+          class="min-[1px]:max-lg:hidden w-[100%] h-[7rem] bg-black flex justify-around fixed z-10"
+        >
           <!-- لوگو -->
           <div
             class="img-for-menu-main-header w-[10%] h-[7rem] flex justify-end items-center"
@@ -41,7 +137,7 @@
           >
             <ul class="elementor-nav-menu flex gap-3 text-[16px]">
               <li
-                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37496"
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37496 whitespace-nowrap"
               >
                 <a
                   href="products.html"
@@ -51,7 +147,7 @@
                 >
               </li>
               <li
-                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37495"
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37495 whitespace-nowrap"
               >
                 <a
                   href="branches.html"
@@ -61,7 +157,7 @@
                 >
               </li>
               <li
-                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37495"
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37495 whitespace-nowrap"
               >
                 <a
                   href="menuMain.html"
@@ -71,7 +167,7 @@
                 >
               </li>
               <li
-                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37495"
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37495 whitespace-nowrap"
               >
                 <a
                   href="form.html"
@@ -87,7 +183,7 @@
               >
                 <a
                   href="#"
-                  class="elementor-item elementor-item-anchor has-submenu font-main duration-300 hover:text-red-700"
+                  class="elementor-item elementor-item-anchor has-submenu font-main duration-300 hover:text-red-700 whitespace-nowrap"
                 >
                   تماس با ما
                 </a>
@@ -246,21 +342,17 @@
       "
     >
       <div class="container mx-auto">
-        <div class="flex justify-center">
-          <div class="flex flex-col gap-[2rem] w-[40%] mt-12 items-center">
-            <div class="">
-              <h1 class="text-[3rem] font-main text-[#FF6E1F]">
-                ما قهوه لمیز هستیم
-              </h1>
-            </div>
-            <div>
-              <span class="text-[1.5rem] font-main">
-                و بی نهایت عاشق کاری که انجام می‌دهیم
-              </span>
-            </div>
+        <div class="flex flex-col md:flex-row justify-center">
+          <div class="flex flex-col gap-8 w-full md:w-1/2 mt-12 items-center">
+            <h1 class="text-4xl md:text-5xl font-main text-[#FF6E1F]">
+              ما قهوه لمیز هستیم
+            </h1>
+            <span class="text-2xl font-main">
+              و بی نهایت عاشق کاری که انجام می‌دهیم
+            </span>
           </div>
-          <div class="w-[40%] mt-12">
-            <p class="font-main text-center h-[150px] leading-[3rem]">
+          <div class="w-full md:w-1/2 mt-12">
+            <p class="font-main text-center h-[150px] leading-8">
               سرو قهوه فوق‌العاده، کیک‌ها و شیرینی‌های تازه و ارائه بهترین سرویس
               در فضاهای زنده و به‌یادماندنی از جمله ارزش‌های ما در مجموعه‌ قهوه
               لمیز است. همه هدف ما، تلاش ما و امید ما ارائه بهترین محصول با
@@ -272,60 +364,54 @@
       <div class="container mx-auto mt-9">
         <div class="flex justify-center">
           <span
-            class="text-[#555555] text-[3rem] font-extrabold font-[font-for-lamiz-coffee]"
+            class="text-[#555555] text-5xl font-extrabold font-[font-for-lamiz-coffee]"
           >
             LAMIZ COFFEE
           </span>
         </div>
       </div>
       <div class="container mx-auto">
-        <div class="grid grid-cols-3 grid-rows-6 mt-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-12">
           <div
             class="img-1-for-pag-home-grid h-[30rem] bg-cover flex items-end justify-center"
             style="background-image: url(./img/img-pag-home-grid-1.webp)"
           >
-            <a
-              href="*"
-              class="mb-[5rem] bg-[rgba(13,15,18,0.5)] p-2 text-[20px]"
+            <a href="*" class="mb-5 bg-[rgba(13,15,18,0.5)] p-2 text-xl"
               >فروشگاه محصولات</a
             >
           </div>
-          <div class="bg-[#333] flex flex-col items-center justify-around">
-            <div class="flex flex-col items-center justify-center">
-              <span
-                class="text-[5rem] text-[#BDBDBD] font-[font-for-lamiz-coffee]"
-              >
-                products
-              </span>
-            </div>
-            <div>
-              <p class="text-[3.5rem] font-main">محصولات</p>
-              <p class="text-[3.5rem] text-[#FF6E1F] font-main">قهوه لمیز</p>
-            </div>
+          <div
+            class="bg-[#333] flex flex-col items-center justify-around min-[380px]:h-[30rem] max-[767px]:h-[30rem]"
+          >
+            <span class="text-5xl text-[#BDBDBD] font-[font-for-lamiz-coffee]">
+              products
+            </span>
+            <p class="text-3xl font-main">محصولات</p>
+            <p class="text-3xl text-[#FF6E1F] font-main">قهوه لمیز</p>
           </div>
-          <div class="bg-[#3F3F3F] flex justify-center items-center">
-            <p class="text-justify p-[30px] text-[21px] font-main">
+          <div
+            class="bg-[#3F3F3F] flex justify-center items-center min-[380px]:h-[30rem] max-[767px]:h-[30rem]"
+          >
+            <p class="text-justify p-8 text-lg font-main">
               مجموعه<span class="text-[#FF6E1F]"> قهوه لمیز </span>
               با تنوع بیش از ۱۰۰ نوع محصول در فروشگاه آنلاین و شعب آماده ارائه
               محصولات قهوه با کیفیت‌ به همراه مناسب‌ترین قیمت به شما مشتریان
               عزیز است.
             </p>
           </div>
-          <div class="bg-[#333] flex flex-col items-center justify-around">
-            <div>
-              <span
-                class="text-[5rem] text-[#BDBDBD] font-[font-for-lamiz-coffee]"
-              >
-                Lamiz Menu
-              </span>
-            </div>
-            <div class="flex flex-col items-center justify-center">
-              <p class="text-[3.5rem] text-[#FF6E1F] font-main">منوی تخصصی</p>
-              <p class="text-[3.5rem] font-main">و متنوع</p>
-            </div>
+          <div
+            class="bg-[#333] flex flex-col items-center justify-around min-[380px]:h-[30rem] max-[767px]:h-[30rem]"
+          >
+            <span class="text-5xl text-[#BDBDBD] font-[font-for-lamiz-coffee]">
+              Lamiz Menu
+            </span>
+            <p class="text-3xl text-[#FF6E1F] font-main">منوی تخصصی</p>
+            <p class="text-3xl font-main">و متنوع</p>
           </div>
-          <div class="bg-[#3F3F3F] flex justify-center items-center">
-            <p class="text-justify p-[30px] text-[21px] font-main">
+          <div
+            class="bg-[#3F3F3F] flex justify-center items-center min-[380px]:h-[30rem] max-[767px]:h-[30rem]"
+          >
+            <p class="text-justify p-8 text-lg font-main">
               منو مجموعه <span class="text-[#FF6E1F]"> قهوه لمیز </span>
               شامل نوشیدنی‌های گرم، نوشیدنی‌های سرد، ماچاها، کیک‌ها و شیرینی‌های
               سالم و تازه‌پخت است که طعم خوش و ماندگاری را برای شما به یادگار
@@ -336,9 +422,7 @@
             class="img-1-for-pag-home-grid h-[30rem] bg-cover flex items-end justify-center"
             style="background-image: url(./img/img-pag-home-grid-2.webp)"
           >
-            <a
-              href="*"
-              class="mb-[5rem] bg-[rgba(13,15,18,0.5)] p-2 text-[20px]"
+            <a href="*" class="mb-5 bg-[rgba(13,15,18,0.5)] p-2 text-xl"
               >منو قهوه لمیز</a
             >
           </div>
@@ -346,59 +430,51 @@
             class="img-1-for-pag-home-grid h-[30rem] bg-cover flex items-end justify-center"
             style="background-image: url(./img/karaj-branches-cover.webp)"
           >
-            <a
-              href="*"
-              class="mb-[5rem] bg-[rgba(13,15,18,0.5)] p-2 text-[20px]"
+            <a href="*" class="mb-5 bg-[rgba(13,15,18,0.5)] p-2 text-xl"
               >شعب قهوه لمیز</a
             >
           </div>
-          <div class="bg-[#333] flex flex-col items-center justify-around">
-            <div>
-              <span
-                class="text-[5rem] text-[#BDBDBD] font-[font-for-lamiz-coffee]"
-              >
-                Branches
-              </span>
-            </div>
-            <div class="flex flex-col items-center justify-center">
-              <p class="text-[3.5rem] font-main">شعب</p>
-              <p class="text-[3.5rem] text-[#FF6E1F] font-main">قهوه لمیز</p>
-            </div>
+          <div
+            class="bg-[#333] flex flex-col items-center justify-around min-[380px]:h-[30rem] max-[767px]:h-[30rem]"
+          >
+            <span class="text-5xl text-[#BDBDBD] font-[font-for-lamiz-coffee]">
+              Branches
+            </span>
+            <p class="text-3xl font-main">شعب</p>
+            <p class="text-3xl text-[#FF6E1F] font-main">قهوه لمیز</p>
           </div>
-          <div class="bg-[#3F3F3F] flex justify-center items-center">
-            <p class="text-justify p-[30px] text-[21px] font-main">
+          <div
+            class="bg-[#3F3F3F] flex justify-center items-center min-[380px]:h-[30rem] max-[767px]:h-[30rem]"
+          >
+            <p class="text-justify p-8 text-lg font-main">
               مجموعه قهوه لمیز با بیش از ۲۵ شعبه فعال در تهران، اصفهان، رویان،
               متل‌قو، قم، کیش، کرج و … در تمامی ایام هفته مشتاق و منتظر دیدار و
               خدمت‌رسانی به شما مشتریان عزیز است.
             </p>
           </div>
-          <div class="bg-[#333] flex flex-col items-center justify-around">
-            <div>
-              <span
-                class="text-[5rem] text-[#BDBDBD] font-[font-for-lamiz-coffee]"
-              >
-                promotions
-              </span>
-            </div>
-            <div class="flex flex-col items-center justify-center">
-              <p class="text-[3.5rem] font-main">نوشیدنی‌های</p>
-              <p class="text-[3.5rem] text-[#FF6E1F] font-main">فصلی</p>
-            </div>
+          <div
+            class="bg-[#333] flex flex-col items-center justify-around min-[380px]:h-[30rem] max-[767px]:h-[30rem]"
+          >
+            <span class="text-5xl text-[#BDBDBD] font-[font-for-lamiz-coffee]">
+              promotions
+            </span>
+            <p class="text-3xl font-main">نوشیدنی‌های</p>
+            <p class="text-3xl text-[#FF6E1F] font-main">فصلی</p>
           </div>
-          <div class="bg-[#3F3F3F] flex justify-center items-center">
-            <p class="text-justify p-[30px] text-[21px] font-main">
+          <div
+            class="bg-[#3F3F3F] flex justify-center items-center min-[380px]:h-[30rem] max-[767px]:h-[30rem]"
+          >
+            <p class="text-justify p-8 text-lg font-main">
               مجموعه<span class="text-[#FF6E1F]"> قهوه لمیز </span>
               برای هر فصل پیشنهادها و نوشیدنی‌های منحصر بفردی را برای شما ابداع
               و خلق می‌کند که با قیمت‌های اقتصادی در تمامی شعب موجود می‌شوند.
             </p>
           </div>
           <div
-            class="img-1-for-pag-home-grid h-[30rem] bg-cover flex items-end justify-center"
+            class="img-1-for-pag-home-grid h-[30rem] bg-cover flex items-end justify-center min-[380px]:h-[30rem] max-[767px]:h-[30rem]"
             style="background-image: url(./img/Promotions-home.webp)"
           >
-            <a
-              href="*"
-              class="mb-[5rem] bg-[rgba(13,15,18,0.5)] p-2 text-[20px]"
+            <a href="*" class="mb-5 bg-[rgba(13,15,18,0.5)] p-2 text-xl"
               >نوشیدنی های فصلی</a
             >
           </div>
@@ -406,21 +482,21 @@
             class="img-1-for-pag-home-grid h-[30rem] bg-cover flex items-end justify-center"
             style="background-image: url(./img/Jordan.webp)"
           ></div>
-          <div class="bg-[#333] flex flex-col items-center justify-around">
-            <div class="flex justify-center items-center text-center">
-              <span
-                class="text-[5rem] text-[#BDBDBD] font-[font-for-lamiz-coffee]"
-              >
-                vision & mission
-              </span>
-            </div>
-            <div class="flex flex-col items-center justify-center">
-              <p class="text-[3.5rem] text-[#FF6E1F] font-main">اهداف</p>
-              <p class="text-[3.5rem] font-main">و ارزش‌ها</p>
-            </div>
+          <div
+            class="bg-[#333] flex flex-col items-center justify-around min-[380px]:h-[30rem] max-[767px]:h-[30rem]"
+          >
+            <span
+              class="text-5xl text-[#BDBDBD] font-[font-for-lamiz-coffee] whitespace-nowrap md:max-xl:text-[16px]"
+            >
+              vision & mission
+            </span>
+            <p class="text-3xl text-[#FF6E1F] font-main">اهداف</p>
+            <p class="text-3xl font-main">و ارزش‌ها</p>
           </div>
-          <div class="bg-[#3F3F3F] flex justify-center items-center">
-            <p class="text-justify p-[30px] text-[21px] font-main">
+          <div
+            class="bg-[#3F3F3F] flex justify-center items-center min-[380px]:h-[30rem] max-[767px]:h-[30rem]"
+          >
+            <p class="text-justify p-8 text-lg font-main">
               احترام به نیازهای مشتریان، در دسترس بودن، سرعت در آماده سازی
               سفارش، خلاقیت و نوآوری در خلق آیتم‌های منو نوشیدنی و محصولات از
               جمله اهداف <span class="text-[#FF6E1F]"> قهوه لمیز </span>
@@ -428,29 +504,24 @@
             </p>
           </div>
           <div
-            class="bg-[#333] flex flex-col items-center justify-around mb-[2rem]"
+            class="bg-[#333] flex flex-col items-center justify-around mb-8 min-[380px]:h-[30rem] max-[767px]:h-[30rem]"
           >
-            <div class="flex justify-center items-center text-center">
-              <span
-                class="text-[5rem] text-[#BDBDBD] font-[font-for-lamiz-coffee]"
-              >
-                our partners
-              </span>
-            </div>
-            <div class="flex flex-col items-center justify-center">
-              <p class="text-[3.5rem] text-[#FF6E1F] font-main">همکاران</p>
-              <p class="text-[3.5rem] font-main">تجاری ما</p>
-            </div>
+            <span class="text-5xl text-[#BDBDBD] font-[font-for-lamiz-coffee]">
+              our partners
+            </span>
+            <p class="text-3xl text-[#FF6E1F] font-main">همکاران</p>
+            <p class="text-3xl font-main">و تامین کنندگان</p>
           </div>
-          <div class="bg-[#3F3F3F] flex justify-center items-center mb-[2rem]">
-            <p class="text-justify p-[30px] text-[21px] font-main">
-              مجموعه<span class="text-[#FF6E1F]"> قهوه لمیز </span>
-              دارای نمایندگی انحصاری سیروپ مونین، پولی کف و کفِ تو در ایران و
-              دارای مشتریان قابل توجهی است.
+          <div
+            class="bg-[#3F3F3F] flex justify-center items-center mb-8 min-[380px]:h-[30rem] max-[767px]:h-[30rem]"
+          >
+            <p class="text-justify p-8 text-lg font-main">
+              قهوه لمیز همکاری می‌کند با بهترین تامین کنندگان و برندهای معتبر و
+              جهانی در حوزه قهوه و شیرینی‌جات که کیفیت محصولات را تضمین می‌کند.
             </p>
           </div>
           <div
-            class="img-1-for-pag-home-grid h-[30rem] bg-cover bg-top flex items-end justify-center mb-[2rem]"
+            class="img-1-for-pag-home-grid h-[30rem] flex items-end justify-center bg-cover mb-8"
             style="background-image: url(./img/our-partners.webp)"
           ></div>
         </div>
@@ -461,14 +532,14 @@
     <footer class="">
       <footer class="bg-black text-white py-8">
         <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div>
+          <div class="min-[1px]:flex justify-center md:block">
             <img src="./icons/Lamiz-logo-150x150.webp" alt="" />
           </div>
           <div class="text-center md:text-left flex flex-col">
-            <h3 class="text-xl font-semibold mb-4 font-main text-right">
+            <h3 class="min-[1px]:text-center md:text-right text-xl font-semibold mb-4 font-main">
               منوی قهوه لامیز
             </h3>
-            <ul class="space-y-2 flex flex-col text-right">
+            <ul class="space-y-2 flex flex-col min-[1px]:text-center md:text-right">
               <li>
                 <a
                   href="#"
@@ -506,11 +577,11 @@
               </li>
             </ul>
           </div>
-          <div class="text-center md:text-left flex flex-col items-start">
-            <h3 class="text-xl font-semibold mb-4 font-main text-right">
+          <div class="text-center md:text-left flex flex-col">
+            <h3 class="min-[1px]:text-center md:text-right text-xl font-semibold mb-4 font-main ">
               دسترسی سریع
             </h3>
-            <ul class="space-y-2 flex flex-col text-right">
+            <ul class="min-[1px]:text-center md:text-right space-y-2 flex flex-col">
               <li>
                 <a
                   href="#"
@@ -600,12 +671,12 @@
         </div>
 
         <div
-          class="border-t border-gray-700 text-center flex justify-center mt-4 gap-[20rem]"
+          class="min-[1px]:flex-col min-[1px]:gap-[2rem] text-center"
         >
           <p class="font-main mt-4">
             تمامی حقوق این وبسایت برای قهوه لامیز محفوظ می‌باشد.
           </p>
-          <p class="font-main mt-4">
+          <p class="font-main mt-4 mb-4">
             طراحی شده با <span class="text-red-500">❤️</span> در گروه صنعتی زال
             ایرانیان
           </p>

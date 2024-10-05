@@ -46,4 +46,6 @@
 .paragraph {
   @apply translate-y-[-2.5rem];
 }
-
+.md-1 {
+  @apply border-t border-gray-700 text-center flex justify-center mt-4 gap-[20rem]
+}
